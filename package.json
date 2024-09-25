@@ -1,0 +1,31 @@
+{
+  "name": "temporah",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --dotenv .env.local",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@nuxtjs/html-validator": "^1.8.2",
+    "@nuxtjs/robots": "^4.1.7",
+    "@nuxtjs/workbox": "^3.0.0-beta.16",
+    "@pinia/nuxt": "^0.5.4",
+    "@quasar/extras": "^1.16.12",
+    "@vite-pwa/nuxt": "^0.10.5",
+    "keycloak-js": "^25.0.6",
+    "nuxt": "^3.13.2",
+    "pinia": "^2.2.2",
+    "quasar": "^2.17.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "^9.0.0-alpha.3",
+    "nuxt-quasar-ui": "^2.1.6"
+  }
+}
