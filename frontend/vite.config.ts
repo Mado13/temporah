@@ -184,11 +184,6 @@ export default defineConfig(({ command }) => {
             return 'vendor-common'
           },
         },
-        treeshake: {
-          moduleSideEffects: ['*.css'],
-          tryCatchDeoptimization: false,
-          preset: 'smallest',
-        },
         external: ['/fonts/*', '/images/*'],
       },
     },

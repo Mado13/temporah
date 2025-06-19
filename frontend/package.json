@@ -48,6 +48,7 @@
     "postcss-html": "^1.8.0",
     "prettier": "^3.5.3",
     "prettier-plugin-svelte": "^3.4.0",
+    "sass-embedded": "^1.89.2",
     "stylelint": "^16.19.1",
     "stylelint-config-standard-scss": "^15.0.1",
     "stylelint-declaration-block-no-ignored-properties": "^2.8.0",

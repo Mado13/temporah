@@ -15,7 +15,7 @@
     <.inertia_title>Tempi</.inertia_title>
     <.inertia_head content={@inertia_head} />
 
-    <%= if Mix.env() == :dev do %>
+    <%= if TempiWeb.Vite.PhxManifestReader.current_env() == :dev do %>
       <% vite_host = System.get_env("VITE_HOST") || "localhost" %>
       <script type="module" src={"http://#{vite_host}:5173/@vite/client"}></script>
       <script type="module" src={"http://#{vite_host}:5173/app/app.js"}></script>
