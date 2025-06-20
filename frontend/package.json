@@ -1,5 +1,5 @@
 {
-  "name": "tempi",
+  "name": "frontend",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -9,8 +9,9 @@
   "scripts": {
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "preview": "vite preview",
-    "build": "vite build",
+    "dev": "bunx vite dev --host",
+    "preview": "bunx vite preview",
+    "build": "bunx vite build",
     "machine-translate": "inlang machine translate --project project.inlang"
   },
   "dependencies": {
@@ -22,8 +23,8 @@
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "flexsearch": "^0.8.204",
     "melt": "^0.30.1",
-    "phoenix": "workspace:*",
-    "phoenix_html": "workspace:*",
+    "phoenix": "^1.7.21",
+    "phoenix_html": "^4.2.1",
     "runed": "^0.26.0",
     "svelte-toolbelt": "^0.7.1",
     "valibot": "^1.1.0",

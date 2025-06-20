@@ -9,8 +9,7 @@ import { Inertia } from "@inertiajs/inertia";
 import { mount, hydrate } from "svelte";
 import "phoenix_html";
 import { setupPWA } from "./pwa-setup";
-import { Index, IndexedDB } from '../node_modules/flexsearch/dist/flexsearch.bundle.module.min.js';
-
+import { Index, IndexedDB } from 'flexsearch';
 
 // Initialize application state
 window.pwa = {};

@@ -1,0 +1,20 @@
+{
+  "name": "tempi",
+  "private": true,
+  "workspaces": [
+    "mobile",
+    "frontend"
+  ],
+  "engines": {
+    "bun": ">=1.2.16"
+  },
+  "scripts": {
+    "dev:mobile": "bun run --filter mobile dev:run"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

@@ -91,11 +91,11 @@ defmodule Tempi.MixProject do
       "ecto.setup": ["ecto.create", "ecto.migrate", "run priv/repo/seeds.exs"],
       "ecto.reset": ["ecto.drop", "ecto.setup"],
       test: ["ecto.create --quiet", "ecto.migrate --quiet", "test"],
-      "assets.setup": ["cmd --cd frontend bun install"],
-      "assets.build": ["cmd --cd frontend bun run build"],
+      "assets.setup": ["cmd bun install"],
+      "assets.build": ["cmd bun run --filter frontend build"],
       "assets.deploy": [
-        "cmd --cd frontend bun install --no-progress",
-        "cmd --cd frontend bun run build",
+        "cmd BUN_INSTALL_PRODUCTION=true bun install --no-progress",
+        "cmd bun run --filter frontend build",
         "phx.digest"
       ]
     ]

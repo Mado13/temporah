@@ -42,6 +42,7 @@ npm-debug.log
 
 # API test files
 *.http
+node_modules/
 
 mobile/node_modules/
 mobile/android/.idea/
