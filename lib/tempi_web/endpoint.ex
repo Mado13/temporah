@@ -22,8 +22,6 @@ defmodule TempiWeb.Endpoint do
   plug Plug.Static,
     at: "/",
     from: :tempi,
-    gzip: true,
-    britoli: true,
     only: TempiWeb.static_paths()
 
   # Tidwave

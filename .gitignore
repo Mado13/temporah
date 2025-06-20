@@ -44,3 +44,8 @@ npm-debug.log
 *.http
 
 mobile/node_modules/
+mobile/android/.idea/
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/ios/Pods/
+mobile/ios/build/

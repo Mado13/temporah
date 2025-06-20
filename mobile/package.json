@@ -2,13 +2,13 @@
   "name": "tempi-mobile",
   "private": true,
   "devDependencies": {
-    "@capacitor/android": "^7.2.0",
-    "@capacitor/cli": "^7.2.0",
-    "@capacitor/ios": "^7.2.0",
+    "@capacitor/android": "^7.4.0",
+    "@capacitor/cli": "^7.4.0",
+    "@capacitor/ios": "^7.4.0",
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@capacitor/core": "^7.2.0",
+    "@capacitor/core": "^7.4.0",
     "@capacitor/keyboard": "^7.0.1"
   },
   "scripts": {
